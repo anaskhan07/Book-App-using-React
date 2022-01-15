@@ -35,7 +35,6 @@ export class BookDetail extends Component {
     render() {
 
         let bookDetail = this.state.bookDetail
-        console.log(bookDetail)
         if(!bookDetail) {
             return<h6>No Such Book</h6>
         } else {
